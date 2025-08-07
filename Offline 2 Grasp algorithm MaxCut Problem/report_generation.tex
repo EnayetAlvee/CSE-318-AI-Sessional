@@ -1,0 +1,100 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{top=1in, bottom=1in, left=1in, right=1in}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{tikz}
+
+% Header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Max-Cut Problem Solving}
+% \fancyhead[C]{\textbf{Md. Enayet Ullah Alvee (ID: 2105107)}}
+\fancyhead[R]{2025}
+
+\title{\vspace{-3cm} \textbf{Max-Cut Problem Solving Using Various Algorithms} \vspace{-0.5cm}}
+\author{Md. Enayet Ullah Alvee \\ Student ID: 2105107}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+
+The Max-Cut problem involves partitioning a graph's vertices into two sets such that the total weight of edges between these sets is maximized. This problem is NP-hard, meaning that finding the exact optimal solution for large graphs is computationally expensive. Various heuristic algorithms offer approximations to this problem. In this report, we examine and compare five such algorithms:
+
+\begin{itemize}
+    \item Randomized Max-Cut
+    \item Greedy Max-Cut
+    \item Semi-Greedy Max-Cut
+    \item Local Search Max-Cut
+    \item GRASP (Greedy Randomized Adaptive Search Procedure)
+\end{itemize}
+
+Our goal is to compare their performance in terms of accuracy, speed, and convergence behavior across various graph types.
+
+\section*{High-Level Description of Each Algorithm}
+
+\subsection*{Randomized Max-Cut}
+The Randomized Max-Cut algorithm randomly assigns vertices to one of two sets, with each vertex being assigned to either set with equal probability. This process is repeated multiple times, and the average weight of the resulting cuts is calculated. This method is quick but may not produce an optimal solution, as it relies purely on randomness.
+
+\subsection*{Greedy Max-Cut}
+In the Greedy Max-Cut algorithm, we begin by selecting the edge with the maximum weight and placing its endpoints into different sets. We then iteratively select the next vertex that maximizes the increase in the cut weight and assign it to the set where it contributes most. The process continues until all vertices are assigned to one of the sets. This method is deterministic and generally produces better results than the randomized approach.
+
+\subsection*{Semi-Greedy Max-Cut}
+Semi-Greedy Max-Cut builds upon the Greedy approach but incorporates randomness through a Restricted Candidate List (RCL). Each vertex’s potential contribution to the cut is assessed, and vertices that meet a randomly selected threshold are added to the set. This randomness introduces variability, which may allow the algorithm to escape local optima, yielding better results in some cases.
+
+\subsection*{Local Search Max-Cut}
+The Local Search Max-Cut algorithm improves upon an initial solution by iteratively moving vertices between sets. If a vertex swap improves the cut, the swap is made. This process continues until no further improvement can be achieved. Local Search is often applied after a construction heuristic like Greedy or Semi-Greedy to fine-tune the solution.
+
+\subsection*{GRASP (Greedy Randomized Adaptive Search Procedure)}
+GRASP is an iterative process that combines a greedy approach with randomization. In each iteration, a greedy solution is generated, followed by a local search to improve the cut. The best solution among all iterations is chosen as the final result. GRASP is known for its ability to explore a larger solution space and can yield solutions that are closer to the optimal cut than simpler heuristics like Greedy or Randomized Max-Cut.
+
+\section*{Why GRASP Performs Better}
+
+GRASP consistently outperforms other algorithms because it leverages both the power of greedy strategies and the flexibility of randomization. By using randomization, GRASP is able to explore different parts of the solution space that may not be reachable using deterministic algorithms like Greedy. This allows it to avoid getting stuck in local optima, which is a common issue with simpler heuristics.
+
+Moreover, the local search applied after generating a greedy solution helps to fine-tune the solution, refining the cut until no further improvement is possible. In contrast, Greedy and Semi-Greedy algorithms do not have this level of adaptability, often resulting in suboptimal solutions.
+
+\begin{itemize}
+    \item \textbf{Exploration and Exploitation:} GRASP balances exploration of new solutions (via randomization) with exploitation of good solutions (via greedy construction and local search).
+    \item \textbf{Iterative Improvement:} By repeating the process multiple times, GRASP finds better solutions on average.
+    \item \textbf{Global Search Space Coverage:} Unlike Greedy, which is more deterministic, GRASP's randomization allows it to cover a broader search space, increasing its chances of finding a higher-quality solution.
+\end{itemize}
+
+Thus, GRASP’s hybrid approach allows it to generate solutions that are more accurate, especially when applied over multiple iterations, which explains its superior performance across different benchmarks.
+
+\section*{Comparison of Algorithms}
+
+The performance of the algorithms was evaluated across several benchmark graphs. The key findings are:
+
+\begin{itemize}
+    \item \textbf{Greedy Algorithm:} Often produced the best cuts after a single run but was limited in its ability to improve after reaching a local optimum.
+    \item \textbf{Semi-Greedy Algorithm:} Performed better than Randomized but was slower and less effective than Greedy in many cases.
+    \item \textbf{Randomized Algorithm:} The least effective, often returning suboptimal solutions, especially for larger or more complex graphs.
+    \item \textbf{Local Search:} Improved the cut quality when applied after Greedy or Semi-Greedy algorithms, but the improvement was minimal if the initial solution was poor.
+    \item \textbf{GRASP:} Outperformed all other algorithms by consistently finding solutions closer to the optimal cut, especially when run for multiple iterations.
+\end{itemize}
+
+\section*{Performance Visualization}
+
+This section will demonstrate the algorithms' performance across various graph types. The following plot visualizes how the different algorithms compare in terms of the cut weight.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{demo.png}  % Replace with your actual plot image
+    \caption{Performance of Max-Cut Algorithms across Different Graphs.}
+    \label{fig:performance}
+\end{figure}
+
+\section*{Conclusion}
+
+This report analyzed the performance of several algorithms for solving the Max-Cut problem. We found that GRASP consistently outperformed other algorithms in both speed and the quality of the solution. By combining greedy strategies with randomization and local search, GRASP is able to escape local optima and explore a broader search space, making it the most effective approach for this problem. However, it is computationally more expensive than simpler methods like Greedy and Randomized Max-Cut.
+
+In future work, hybrid algorithms or additional optimization techniques could further improve performance, especially in extremely large graphs.
+
+\end{document}

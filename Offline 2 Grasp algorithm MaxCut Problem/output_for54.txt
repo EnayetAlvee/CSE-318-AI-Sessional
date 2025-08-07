@@ -1,0 +1,596 @@
+Generating CSV file for Max-Cut results...
+Processing file: graph_GRASP/set1/g1.rud
+Results for Graph G1:
+Algorithm                Value                    
+Randomized Max-Cut       9588.4                   
+Greedy Max-Cut           10956                    
+Semi-Greedy Max-Cut      11214                    
+Local Search Max-Cut - Iterations7                        
+Local Search Max-Cut - Average Value11259                    
+GRASP Max-Cut(iter,res)  50                        ,11469
+Time taken to process file: 2.64339 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g2.rud
+Results for Graph G2:
+Algorithm                Value                    
+Randomized Max-Cut       9586.72                  
+Greedy Max-Cut           11030                    
+Semi-Greedy Max-Cut      11183                    
+Local Search Max-Cut - Iterations10                       
+Local Search Max-Cut - Average Value11394                    
+GRASP Max-Cut(iter,res)  50                        ,11438
+Time taken to process file: 1.04016 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g3.rud
+Results for Graph G3:
+Algorithm                Value                    
+Randomized Max-Cut       9589.65                  
+Greedy Max-Cut           11012                    
+Semi-Greedy Max-Cut      11241                    
+Local Search Max-Cut - Iterations6                        
+Local Search Max-Cut - Average Value11308                    
+GRASP Max-Cut(iter,res)  50                        ,11450
+Time taken to process file: 2.1852 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g4.rud
+Results for Graph G4:
+Algorithm                Value                    
+Randomized Max-Cut       9589.14                  
+Greedy Max-Cut           11031                    
+Semi-Greedy Max-Cut      11271                    
+Local Search Max-Cut - Iterations13                       
+Local Search Max-Cut - Average Value11445                    
+GRASP Max-Cut(iter,res)  50                        ,11478
+Time taken to process file: 1.27987 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g5.rud
+Results for Graph G5:
+Algorithm                Value                    
+Randomized Max-Cut       9586.73                  
+Greedy Max-Cut           10990                    
+Semi-Greedy Max-Cut      11223                    
+Local Search Max-Cut - Iterations7                        
+Local Search Max-Cut - Average Value11370                    
+GRASP Max-Cut(iter,res)  50                        ,11478
+Time taken to process file: 1.30967 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g6.rud
+Results for Graph G6:
+Algorithm                Value                    
+Randomized Max-Cut       80.231                   
+Greedy Max-Cut           1515                     
+Semi-Greedy Max-Cut      1742                     
+Local Search Max-Cut - Iterations6                        
+Local Search Max-Cut - Average Value1870                     
+GRASP Max-Cut(iter,res)  50                        ,2001
+Time taken to process file: 1.75804 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g7.rud
+Results for Graph G7:
+Algorithm                Value                    
+Randomized Max-Cut       -76.893                  
+Greedy Max-Cut           1362                     
+Semi-Greedy Max-Cut      1550                     
+Local Search Max-Cut - Iterations11                       
+Local Search Max-Cut - Average Value1735                     
+GRASP Max-Cut(iter,res)  50                        ,1834
+Time taken to process file: 2.31625 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g8.rud
+Results for Graph G8:
+Algorithm                Value                    
+Randomized Max-Cut       -83.718                  
+Greedy Max-Cut           1331                     
+Semi-Greedy Max-Cut      1526                     
+Local Search Max-Cut - Iterations14                       
+Local Search Max-Cut - Average Value1703                     
+GRASP Max-Cut(iter,res)  50                        ,1867
+Time taken to process file: 1.92113 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g9.rud
+Results for Graph G9:
+Algorithm                Value                    
+Randomized Max-Cut       -29.832                  
+Greedy Max-Cut           1507                     
+Semi-Greedy Max-Cut      1610                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value1735                     
+GRASP Max-Cut(iter,res)  50                        ,1887
+Time taken to process file: 1.35077 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g10.rud
+Results for Graph G10:
+Algorithm                Value                    
+Randomized Max-Cut       -75.358                  
+Greedy Max-Cut           1350                     
+Semi-Greedy Max-Cut      1539                     
+Local Search Max-Cut - Iterations7                        
+Local Search Max-Cut - Average Value1682                     
+GRASP Max-Cut(iter,res)  50                        ,1840
+Time taken to process file: 1.28606 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g11.rud
+Results for Graph G11:
+Algorithm                Value                    
+Randomized Max-Cut       16.844                   
+Greedy Max-Cut           434                      
+Semi-Greedy Max-Cut      448                      
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value472                      
+GRASP Max-Cut(iter,res)  50                        ,490
+Time taken to process file: 0.099725 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g12.rud
+Results for Graph G12:
+Algorithm                Value                    
+Randomized Max-Cut       -1.21                    
+Greedy Max-Cut           418                      
+Semi-Greedy Max-Cut      452                      
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value450                      
+GRASP Max-Cut(iter,res)  50                        ,488
+Time taken to process file: 0.107215 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g13.rud
+Results for Graph G13:
+Algorithm                Value                    
+Randomized Max-Cut       17.798                   
+Greedy Max-Cut           432                      
+Semi-Greedy Max-Cut      478                      
+Local Search Max-Cut - Iterations2                        
+Local Search Max-Cut - Average Value472                      
+GRASP Max-Cut(iter,res)  50                        ,510
+Time taken to process file: 0.180973 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g14.rud
+Results for Graph G14:
+Algorithm                Value                    
+Randomized Max-Cut       2347.58                  
+Greedy Max-Cut           2890                     
+Semi-Greedy Max-Cut      2938                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value2957                     
+GRASP Max-Cut(iter,res)  50                        ,2990
+Time taken to process file: 0.262745 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g15.rud
+Results for Graph G15:
+Algorithm                Value                    
+Randomized Max-Cut       2329.91                  
+Greedy Max-Cut           2873                     
+Semi-Greedy Max-Cut      2914                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value2950                     
+GRASP Max-Cut(iter,res)  50                        ,2964
+Time taken to process file: 0.444907 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g16.rud
+Results for Graph G16:
+Algorithm                Value                    
+Randomized Max-Cut       2335.92                  
+Greedy Max-Cut           2878                     
+Semi-Greedy Max-Cut      2932                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value2945                     
+GRASP Max-Cut(iter,res)  50                        ,2988
+Time taken to process file: 0.293001 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g17.rud
+Results for Graph G17:
+Algorithm                Value                    
+Randomized Max-Cut       2332.46                  
+Greedy Max-Cut           2864                     
+Semi-Greedy Max-Cut      2907                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value2940                     
+GRASP Max-Cut(iter,res)  50                        ,2970
+Time taken to process file: 0.177455 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g18.rud
+Results for Graph G18:
+Algorithm                Value                    
+Randomized Max-Cut       32.853                   
+Greedy Max-Cut           780                      
+Semi-Greedy Max-Cut      824                      
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value842                      
+GRASP Max-Cut(iter,res)  50                        ,912
+Time taken to process file: 0.207654 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g19.rud
+Results for Graph G19:
+Algorithm                Value                    
+Randomized Max-Cut       -55.074                  
+Greedy Max-Cut           681                      
+Semi-Greedy Max-Cut      769                      
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value765                      
+GRASP Max-Cut(iter,res)  50                        ,815
+Time taken to process file: 0.287181 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g20.rud
+Results for Graph G20:
+Algorithm                Value                    
+Randomized Max-Cut       -24.665                  
+Greedy Max-Cut           698                      
+Semi-Greedy Max-Cut      776                      
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value761                      
+GRASP Max-Cut(iter,res)  50                        ,840
+Time taken to process file: 0.234789 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g21.rud
+Results for Graph G21:
+Algorithm                Value                    
+Randomized Max-Cut       -32.324                  
+Greedy Max-Cut           704                      
+Semi-Greedy Max-Cut      753                      
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value767                      
+GRASP Max-Cut(iter,res)  50                        ,830
+Time taken to process file: 0.447739 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g22.rud
+Results for Graph G22:
+Algorithm                Value                    
+Randomized Max-Cut       9992.87                  
+Greedy Max-Cut           12346                    
+Semi-Greedy Max-Cut      12760                    
+Local Search Max-Cut - Iterations9                        
+Local Search Max-Cut - Average Value12851                    
+GRASP Max-Cut(iter,res)  50                        ,13032
+Time taken to process file: 2.9816 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g23.rud
+Results for Graph G23:
+Algorithm                Value                    
+Randomized Max-Cut       9998.16                  
+Greedy Max-Cut           12291                    
+Semi-Greedy Max-Cut      12852                    
+Local Search Max-Cut - Iterations6                        
+Local Search Max-Cut - Average Value12801                    
+GRASP Max-Cut(iter,res)  50                        ,12997
+Time taken to process file: 2.51119 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g24.rud
+Results for Graph G24:
+Algorithm                Value                    
+Randomized Max-Cut       10000.7                  
+Greedy Max-Cut           12367                    
+Semi-Greedy Max-Cut      12745                    
+Local Search Max-Cut - Iterations8                        
+Local Search Max-Cut - Average Value12733                    
+GRASP Max-Cut(iter,res)  50                        ,12993
+Time taken to process file: 3.12002 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g25.rud
+Results for Graph G25:
+Algorithm                Value                    
+Randomized Max-Cut       9993.07                  
+Greedy Max-Cut           12408                    
+Semi-Greedy Max-Cut      12793                    
+Local Search Max-Cut - Iterations9                        
+Local Search Max-Cut - Average Value12807                    
+GRASP Max-Cut(iter,res)  50                        ,13029
+Time taken to process file: 2.90307 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g26.rud
+Results for Graph G26:
+Algorithm                Value                    
+Randomized Max-Cut       9999.01                  
+Greedy Max-Cut           12355                    
+Semi-Greedy Max-Cut      12768                    
+Local Search Max-Cut - Iterations8                        
+Local Search Max-Cut - Average Value12799                    
+GRASP Max-Cut(iter,res)  50                        ,12991
+Time taken to process file: 3.88578 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g27.rud
+Results for Graph G27:
+Algorithm                Value                    
+Randomized Max-Cut       -19.233                  
+Greedy Max-Cut           2316                     
+Semi-Greedy Max-Cut      2610                     
+Local Search Max-Cut - Iterations6                        
+Local Search Max-Cut - Average Value2778                     
+GRASP Max-Cut(iter,res)  50                        ,3014
+Time taken to process file: 3.46122 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g28.rud
+Results for Graph G28:
+Algorithm                Value                    
+Randomized Max-Cut       -49.16                   
+Greedy Max-Cut           2329                     
+Semi-Greedy Max-Cut      2632                     
+Local Search Max-Cut - Iterations7                        
+Local Search Max-Cut - Average Value2844                     
+GRASP Max-Cut(iter,res)  50                        ,2948
+Time taken to process file: 3.87152 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g29.rud
+Results for Graph G29:
+Algorithm                Value                    
+Randomized Max-Cut       39.386                   
+Greedy Max-Cut           2367                     
+Semi-Greedy Max-Cut      2696                     
+Local Search Max-Cut - Iterations6                        
+Local Search Max-Cut - Average Value2906                     
+GRASP Max-Cut(iter,res)  50                        ,3015
+Time taken to process file: 5.01544 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g30.rud
+Results for Graph G30:
+Algorithm                Value                    
+Randomized Max-Cut       48.893                   
+Greedy Max-Cut           2401                     
+Semi-Greedy Max-Cut      2683                     
+Local Search Max-Cut - Iterations5                        
+Local Search Max-Cut - Average Value2874                     
+GRASP Max-Cut(iter,res)  50                        ,3032
+Time taken to process file: 4.18184 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g31.rud
+Results for Graph G31:
+Algorithm                Value                    
+Randomized Max-Cut       -40.555                  
+Greedy Max-Cut           2290                     
+Semi-Greedy Max-Cut      2574                     
+Local Search Max-Cut - Iterations5                        
+Local Search Max-Cut - Average Value2759                     
+GRASP Max-Cut(iter,res)  50                        ,2942
+Time taken to process file: 4.59803 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g32.rud
+Results for Graph G32:
+Algorithm                Value                    
+Randomized Max-Cut       11.25                    
+Greedy Max-Cut           1058                     
+Semi-Greedy Max-Cut      1180                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value1144                     
+GRASP Max-Cut(iter,res)  50                        ,1222
+Time taken to process file: 0.582283 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g33.rud
+Results for Graph G33:
+Algorithm                Value                    
+Randomized Max-Cut       -14.984                  
+Greedy Max-Cut           1000                     
+Semi-Greedy Max-Cut      1170                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value1098                     
+GRASP Max-Cut(iter,res)  50                        ,1224
+Time taken to process file: 0.647837 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g34.rud
+Results for Graph G34:
+Algorithm                Value                    
+Randomized Max-Cut       -23.546                  
+Greedy Max-Cut           988                      
+Semi-Greedy Max-Cut      1132                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value1116                     
+GRASP Max-Cut(iter,res)  50                        ,1210
+Time taken to process file: 0.577597 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g35.rud
+Results for Graph G35:
+Algorithm                Value                    
+Randomized Max-Cut       5890.05                  
+Greedy Max-Cut           7252                     
+Semi-Greedy Max-Cut      7395                     
+Local Search Max-Cut - Iterations2                        
+Local Search Max-Cut - Average Value7426                     
+GRASP Max-Cut(iter,res)  50                        ,7464
+Time taken to process file: 1.1194 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g36.rud
+Results for Graph G36:
+Algorithm                Value                    
+Randomized Max-Cut       5884.23                  
+Greedy Max-Cut           7225                     
+Semi-Greedy Max-Cut      7366                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value7410                     
+GRASP Max-Cut(iter,res)  50                        ,7455
+Time taken to process file: 1.05238 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g37.rud
+Results for Graph G37:
+Algorithm                Value                    
+Randomized Max-Cut       5890.62                  
+Greedy Max-Cut           7264                     
+Semi-Greedy Max-Cut      7376                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value7421                     
+GRASP Max-Cut(iter,res)  50                        ,7477
+Time taken to process file: 1.15492 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g38.rud
+Results for Graph G38:
+Algorithm                Value                    
+Randomized Max-Cut       5890.33                  
+Greedy Max-Cut           7305                     
+Semi-Greedy Max-Cut      7394                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value7451                     
+GRASP Max-Cut(iter,res)  50                        ,7470
+Time taken to process file: 2.00492 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g39.rud
+Results for Graph G39:
+Algorithm                Value                    
+Randomized Max-Cut       12.95                    
+Greedy Max-Cut           1861                     
+Semi-Greedy Max-Cut      1866                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value2074                     
+GRASP Max-Cut(iter,res)  50                        ,2141
+Time taken to process file: 1.95112 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g40.rud
+Results for Graph G40:
+Algorithm                Value                    
+Randomized Max-Cut       -52.226                  
+Greedy Max-Cut           1834                     
+Semi-Greedy Max-Cut      1983                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value2013                     
+GRASP Max-Cut(iter,res)  50                        ,2122
+Time taken to process file: 1.92166 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g41.rud
+Results for Graph G41:
+Algorithm                Value                    
+Randomized Max-Cut       -7.684                   
+Greedy Max-Cut           1876                     
+Semi-Greedy Max-Cut      2023                     
+Local Search Max-Cut - Iterations6                        
+Local Search Max-Cut - Average Value2055                     
+GRASP Max-Cut(iter,res)  50                        ,2162
+Time taken to process file: 3.41558 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g42.rud
+Results for Graph G42:
+Algorithm                Value                    
+Randomized Max-Cut       57.842                   
+Greedy Max-Cut           1989                     
+Semi-Greedy Max-Cut      2043                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value2160                     
+GRASP Max-Cut(iter,res)  50                        ,2226
+Time taken to process file: 1.75872 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g43.rud
+Results for Graph G43:
+Algorithm                Value                    
+Randomized Max-Cut       4995.48                  
+Greedy Max-Cut           6188                     
+Semi-Greedy Max-Cut      6423                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value6348                     
+GRASP Max-Cut(iter,res)  50                        ,6499
+Time taken to process file: 1.00992 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g44.rud
+Results for Graph G44:
+Algorithm                Value                    
+Randomized Max-Cut       4995.75                  
+Greedy Max-Cut           6157                     
+Semi-Greedy Max-Cut      6332                     
+Local Search Max-Cut - Iterations6                        
+Local Search Max-Cut - Average Value6385                     
+GRASP Max-Cut(iter,res)  50                        ,6522
+Time taken to process file: 0.906266 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g45.rud
+Results for Graph G45:
+Algorithm                Value                    
+Randomized Max-Cut       4994.06                  
+Greedy Max-Cut           6179                     
+Semi-Greedy Max-Cut      6340                     
+Local Search Max-Cut - Iterations5                        
+Local Search Max-Cut - Average Value6393                     
+GRASP Max-Cut(iter,res)  50                        ,6510
+Time taken to process file: 0.915003 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g46.rud
+Results for Graph G46:
+Algorithm                Value                    
+Randomized Max-Cut       4993.78                  
+Greedy Max-Cut           6150                     
+Semi-Greedy Max-Cut      6357                     
+Local Search Max-Cut - Iterations7                        
+Local Search Max-Cut - Average Value6407                     
+GRASP Max-Cut(iter,res)  50                        ,6494
+Time taken to process file: 1.83705 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g47.rud
+Results for Graph G47:
+Algorithm                Value                    
+Randomized Max-Cut       4995.56                  
+Greedy Max-Cut           6220                     
+Semi-Greedy Max-Cut      6397                     
+Local Search Max-Cut - Iterations5                        
+Local Search Max-Cut - Average Value6389                     
+GRASP Max-Cut(iter,res)  50                        ,6514
+Time taken to process file: 0.913203 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g48.rud
+Results for Graph G48:
+Algorithm                Value                    
+Randomized Max-Cut       2997.51                  
+Greedy Max-Cut           6000                     
+Semi-Greedy Max-Cut      6000                     
+Local Search Max-Cut - Iterations1                        
+Local Search Max-Cut - Average Value6000                     
+GRASP Max-Cut(iter,res)  50                        ,6000
+Time taken to process file: 1.09508 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g49.rud
+Results for Graph G49:
+Algorithm                Value                    
+Randomized Max-Cut       3000.44                  
+Greedy Max-Cut           6000                     
+Semi-Greedy Max-Cut      6000                     
+Local Search Max-Cut - Iterations1                        
+Local Search Max-Cut - Average Value6000                     
+GRASP Max-Cut(iter,res)  50                        ,6000
+Time taken to process file: 1.11003 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g50.rud
+Results for Graph G50:
+Algorithm                Value                    
+Randomized Max-Cut       3001.17                  
+Greedy Max-Cut           5880                     
+Semi-Greedy Max-Cut      5880                     
+Local Search Max-Cut - Iterations1                        
+Local Search Max-Cut - Average Value5880                     
+GRASP Max-Cut(iter,res)  50                        ,5880
+Time taken to process file: 1.10448 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g51.rud
+Results for Graph G51:
+Algorithm                Value                    
+Randomized Max-Cut       2957.1                   
+Greedy Max-Cut           3626                     
+Semi-Greedy Max-Cut      3694                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value3732                     
+GRASP Max-Cut(iter,res)  50                        ,3754
+Time taken to process file: 0.261976 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g52.rud
+Results for Graph G52:
+Algorithm                Value                    
+Randomized Max-Cut       2956.57                  
+Greedy Max-Cut           3650                     
+Semi-Greedy Max-Cut      3696                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value3721                     
+GRASP Max-Cut(iter,res)  50                        ,3755
+Time taken to process file: 0.49518 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g53.rud
+Results for Graph G53:
+Algorithm                Value                    
+Randomized Max-Cut       2957.22                  
+Greedy Max-Cut           3632                     
+Semi-Greedy Max-Cut      3683                     
+Local Search Max-Cut - Iterations3                        
+Local Search Max-Cut - Average Value3729                     
+GRASP Max-Cut(iter,res)  50                        ,3749
+Time taken to process file: 0.379451 minutes
+----------------------------------------
+Processing file: graph_GRASP/set1/g54.rud
+Results for Graph G54:
+Algorithm                Value                    
+Randomized Max-Cut       2957.98                  
+Greedy Max-Cut           3633                     
+Semi-Greedy Max-Cut      3679                     
+Local Search Max-Cut - Iterations4                        
+Local Search Max-Cut - Average Value3707                     
+GRASP Max-Cut(iter,res)  50                        ,3744
+Time taken to process file: 0.441914 minutes
+----------------------------------------
+CSV file generated successfully! in 83.0198minutes
